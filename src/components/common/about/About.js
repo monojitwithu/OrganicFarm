@@ -7,7 +7,7 @@ const About=()=>{
     
     const readMoreClickHandler=()=>{
         hide==="Read More"?sethide("Hide"):sethide("Read More")
-    read===``?setRead("organic grocery shop website using react js html and css and in the end i will show you how you can host your reactjs website on the live server."):setRead("")
+    read===``?setRead(""):setRead("")
 
     }
     return(
@@ -20,10 +20,7 @@ const About=()=>{
                     
                     <h3>Fresh Food,Simply<font>Delicious</font></h3>
                         <p>
-                        In This Video We Are Going To Make an E-commerce 
-                        organic grocery shop website using react js html and 
-                        css and in the end i will show you how you 
-                        can host your reactjs website on the live server.
+                        .
                         {read}
 
                         </p>
