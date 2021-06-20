@@ -1,0 +1,167 @@
+.c-box{
+    
+	width:600px;
+	height: 400px;
+	display: flex;
+	
+	
+
+	border-radius: 12px;
+	position: relative;
+    
+	margin: 20px 30px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	background-color:#FFFFFF;
+    z-index: 1;
+	overflow: hidden;
+	span{
+		color: whitesmoke;
+	}
+	span:hover{
+		cursor: pointer;
+	}
+	
+}
+.c-box img{
+	height:200px;
+}
+.c-box p{
+	color:#4d4d4d70;
+	font-family: 'Montserrat';
+	font-size: 0.9rem;
+	letter-spacing: 0.5;
+	margin: 4px;
+    z-index: 1;
+}
+.price{
+	color:#202020;
+	font-family: "Montserrat";
+	font-size: 1rem;;
+}
+.buy-btn{
+	position: absolute;
+	width:140px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'montserrat';
+	left: 50%;
+	bottom: -24px;
+	transform: translateX(-50%);
+	border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+	background:linear-gradient(120deg,#3cd53f 20%,#66f4a6);
+	color:#FFFFFF;
+	display: none;
+	animation: fade 0.3s;
+}
+.c-box:hover .buy-btn{
+	display: flex;
+}
+.c-box:hover{
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	background-color:#FFFFFF;
+}
+.p-box:hover .price{
+	color:#3cd53f;
+	transition: all ease 0.2s;
+}
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+@media(max-width:1045px){
+	
+	.c-box{
+		width:200px;
+		height: 280px;
+	}
+	.c-box img{
+		height: 180px;
+	}
+}
+.modal{
+    display:none;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    
+    
+}
+.visible{
+    display: initial;
+    z-index: 1;
+	animation: growDown 300ms ease-in-out forwards;
+        transform-origin: top center;
+}
+@keyframes growDown {
+	0% {
+	  transform: scaleY(0)
+	}
+	80% {
+	  transform: scaleY(1.1)
+	}
+	100% {
+	  transform: scaleY(1)
+	}
+  }
+
+
+
+
+
+  //cart box 
+
+
+  .i-box{
+	  
+    width: 108px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 14px;
+    position: relative;
+    margin: 11px 11px;
+    background-color: rgb(167 158 245 / 0%);
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	span{
+		color: whitesmoke;
+	}
+	span:hover{
+		cursor: pointer;
+	}
+	
+}
+.i-box img{
+	height:50px;
+}
+.i-box p{
+	color:#4d4d4d70;
+	font-family: 'Montserrat';
+	font-size: 0.9rem;
+	letter-spacing: 0.5;
+	margin: 4px;
+}
+.i-price{
+	color:#202020;
+	font-family: "Montserrat";
+	font-size: 1rem;;
+}
+
+.checkout{
+	     position: absolute;
+	    /* height: 100px; */
+		top: 336px;
+		z-index: 1;
+		right: 46px;
+		width: 566px;
+		border-radius: 10px;
+}

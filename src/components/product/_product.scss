@@ -1,0 +1,51 @@
+.product{
+	width: 100%;
+	background-color: #FFFFFF;
+	display: flex;
+	height: auto;
+	flex-direction: column;
+	align-items: center;
+	padding:40px 20px;
+	
+	background-image: url('../common/images/organic-bg-1.png');
+	background-repeat:no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	margin-top: 100px;
+}
+ 
+ 
+.p-heading{
+
+	margin:20px;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+}
+.p-heading h3{
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	color:#333333;
+	font-weight: 700;
+	font-size:3rem;
+	font-family:'Yellowtail';
+ 
+}
+.product-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 10px 0px;
+	width:100%;
+}
+
+
+
+@media(max-width:1045px){
+	
+	.product{
+		text-align: center;
+		background-image: none;
+		height: 1300px;
+	}
+}
