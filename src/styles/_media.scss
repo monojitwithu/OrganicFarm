@@ -1,170 +1,153 @@
-@media(max-width:1230px){
-	.m-text h2{
-		font-size:3.5rem;
-	}
+@media (max-width: 1230px) {
+  .m-text h2 {
+    font-size: 3.5rem;
+  }
 }
-@media(max-width:1045px){
-	.main{
-		background:none;
-	}
-	.m-img{
-		display:none;
-	}
-	.m-text{
-		left:50%;
-		top:50%;
-		transform: translate(-50%,-50%);
-		
- 
-	}
-	.product{
-		text-align: center;
-		background-image: none;
-		height: 1300px;
-	}.p-box{
-		width:200px;
-		height: 280px;
-	}
-	.p-box img{
-		height: 180px;
-	}
-.our-brand{
-	margin-top: -150px;
-	text-align: center;
-	flex-direction:column-reverse;
-	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.192);
+@media (max-width: 1045px) {
+  .main {
+    background: none;
+  }
+  .m-img {
+    display: none;
+  }
+  .m-text {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .product {
+    text-align: center;
+    background-image: none;
+    height: 1300px;
+  }
+  .p-box {
+    width: 200px;
+    height: 280px;
+  }
+  .p-box img {
+    height: 180px;
+  }
+  .our-brand {
+    margin-top: -150px;
+    text-align: center;
+    flex-direction: column-reverse;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.192);
+  }
+  .brand-text,
+  .brand-img {
+    width: 100%;
+  }
+  .brand-img {
+    height: 300px;
+    margin: 20px;
+  }
 }
-.brand-text,.brand-img{
-	width:100%;
-}
-.brand-img{
-	height:300px;
-	margin:20px;
-}
-}
-@media(max-width:600px){
+@media (max-width: 600px) {
+  .checkout {
+    width: 181px;
+    top: 224px;
+    left: 39px;
+  }
 
-	.checkout{
-		width: 181px;
-		top: 224px;
-		left: 39px
-}
+  .logo {
+    left: 155px;
+    top: 30px;
+  }
+  .logo a {
+    font-size: 1.4rem;
+  }
+  .side-box {
+    left: 268px;
+    top: -29px;
+  }
+  .m-text {
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .m-text h1,
+  h2 {
+    font-size: 2.5rem;
+    line-height: 40px;
+    margin: 0px 20px;
+    letter-spacing: 10px;
+  }
+  .m-text h2 {
+    font-size: 1.2rem;
+  }
+  .m-btn {
+    margin-left: 20%;
+  }
+  .product {
+    margin-top: 0px;
+    height: 2100px;
+  }
+  .p-box {
+    margin: 20px 0px;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  }
+  .p-box img {
+    height: 100px;
+  }
+  .subscribe-input {
+    width: 95%;
+  }
+  .subscribe-container {
+    padding: 0px;
+    width: 450px;
+    position: relative;
+    top: 2700px;
+    left: 12px;
 
+    bottom: 0px;
 
+    margin-top: 200px;
+  }
+  .subscribe-container h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
 
-
-	.logo{
-	left: 155px;
-	top:30px;
-	}
-	.logo a{
-		font-size: 1.4rem;;
-	}
-	.side-box{
-        left: 268px;
-        top: -29px;
-	}
-	.m-text{
-		overflow-wrap: break-word;
-		display: flex;
-		flex-direction: column;
-		margin:auto;
-	}
-	.m-text h1,h2{
-		font-size: 2.5rem;
-		line-height:40px;
-		margin:0px 20px;
-		letter-spacing: 10px;
-	 }
-	 .m-text h2{
-		font-size: 1.2rem;
-	 }
-	 .m-btn{
-		 margin-left:20%;
-	 }
-	 .product{
-		 margin-top: 0px;
-		 height: 2100px;
-	 }
-	 .p-box{
-		margin:20px 0px;
-		padding:10px 0px;
-		 width:100%;
-		 text-align: center;
-		 box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
-	 }
-	 .p-box img{
-		height: 100px;
-	}
-	 .subscribe-input{
-		width:95%;
-	}
-	.subscribe-container{
-        padding: 0px;
-        width: 450px;
-        position: relative;
-        top: 2700px;
-        left: 12px;
-        
-        bottom: 0px;
-     
-
-		margin-top: 200px;
-	}
-	.subscribe-container h3{
-		font-size:1.4rem;
-		text-align: center;
-	}
-	
-    
-    
-    .logo{
-        svg{
-            display: initial;
-            height: 40px;
-            width: 40px;
-            position: fixed;
-            left: 10px;
-            top: 54px;
-            color: yellowgreen;
-            cursor: pointer;
-            
-        }
-        
-
-
-
-
+  .logo {
+    svg {
+      display: initial;
+      height: 40px;
+      width: 40px;
+      position: fixed;
+      left: 10px;
+      top: 54px;
+      color: yellowgreen;
+      cursor: pointer;
     }
-    .menu-container{
-         display: none;// by setting another properites in display we are not able to get flex prperties thats why its shows in column
-        
-        top: 52px;
-         right: 132px;
-         top: 86px;
-       right: 306px;
-      
-       padding: 0;
-    }
-    .show-menu{
-        display: initial;// by setting another properites in display we are not able to get flex prperties thats why its shows in column
-        animation: growDown 300ms ease-in-out forwards;
-        transform-origin: top center;
-    }
-    @keyframes growDown {
-        0% {
-          transform: scaleY(0)
-        }
-        80% {
-          transform: scaleY(1.1)
-        }
-        100% {
-          transform: scaleY(1)
-        }
-      }
+  }
+  .menu-container {
+    display: none; // by setting another properites in display we are not able to get flex prperties thats why its shows in column
 
+    top: 52px;
+    right: 132px;
+    top: 86px;
+    right: 306px;
+
+    padding: 0;
+  }
+  .show-menu {
+    display: initial; // by setting another properites in display we are not able to get flex prperties thats why its shows in column
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+  }
+  @keyframes growDown {
+    0% {
+      transform: scaleY(0);
+    }
+    80% {
+      transform: scaleY(1.1);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
 }
-
-
-
-	

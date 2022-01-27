@@ -1,17 +1,13 @@
- @import './rest_default';
- @import '../components/home/home';
-@import '../components/common/about/about';
-@import '../components/common/footer/footer';
- @import '../components/common/header/header';
- @import '../components/common/nav/nav';
-  @import '../components/product/product';
- @import '../components/productBox/box';
+@import "./rest_default";
+@import "../components/home/home";
+@import "../components/common/about/about";
+@import "../components/common/footer/footer";
+@import "../components/common/header/header";
+@import "../components/common/nav/nav";
+@import "../components/product/product";
+@import "../components/productBox/box";
 
-
-@import '../components/home/home';
-@import './fonts';
-@import '../components/common/cart/cart';
-@import  './media'
-
-
-
+@import "../components/home/home";
+@import "./fonts";
+@import "../components/common/cart/cart";
+@import "./media";
