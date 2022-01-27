@@ -1,77 +1,70 @@
-.about{
-    display: flex;
-    width: 85%;
-    margin:30px auto;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-    margin-top: 80px;
-
-    
+.about {
+  display: flex;
+  width: 85%;
+  margin: 30px auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin-top: 80px;
 }
-.about-text{
-    width: 40%;
-
+.about-text {
+  width: 40%;
 }
-.about-img{
-    height: 500px;
-    width: 50%;
-    box-sizing: border-box;
-    animation: up-down 3s ease-in-out infinite  alternate-reverse;
-
+.about-img {
+  height: 500px;
+  width: 50%;
+  box-sizing: border-box;
+  animation: up-down 3s ease-in-out infinite alternate-reverse;
 }
-@keyframes up-down{
-    0%{
-        transform: translate(10px,10px);
-    }
-    100%{
-        transform: translate(-10px,-10px);
-    }
+@keyframes up-down {
+  0% {
+    transform: translate(10px, 10px);
+  }
+  100% {
+    transform: translate(-10px, -10px);
+  }
 }
-.about-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-.about-text h3{
-    color: #333333;
-    font-weight: 700;
-    font-size: 3rem;
-    margin: 0px;
-    font-family: 'yellowTail';
+.about-text h3 {
+  color: #333333;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0px;
+  font-family: "yellowTail";
 }
-.about-text font{
-    color: #3cd53f;
-    font-family: 'yellowTail';
-
+.about-text font {
+  color: #3cd53f;
+  font-family: "yellowTail";
 }
-.about-text p{
-    font-size: 0.9rem;
-    color: #bdbdbd;
-    font-family: 'Monstserrat';
-    letter-spacing: 0.5px;
-    
+.about-text p {
+  font-size: 0.9rem;
+  color: #bdbdbd;
+  font-family: "Monstserrat";
+  letter-spacing: 0.5px;
 }
-.about-btn{
-	width:170px;
-	height: 45px;
-	background-color: #3cd53f;
-	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
-	margin-top: 20px;
-	color:#fff;
-	font-family: 'Montserrat';
-	font-weight: 600;
-	letter-spacing: 0.5px;
-	font-size: 1rem;
-	
+.about-btn {
+  width: 170px;
+  height: 45px;
+  background-color: #3cd53f;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
 }
-.about-btn:hover{
-	color:#FFFFFF;
-	background-color: #393939;
-	transition: all ease 0.5s;
-    cursor: pointer;
+.about-btn:hover {
+  color: #ffffff;
+  background-color: #393939;
+  transition: all ease 0.5s;
+  cursor: pointer;
 }

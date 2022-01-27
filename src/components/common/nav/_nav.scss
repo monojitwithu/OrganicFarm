@@ -1,81 +1,78 @@
-.nav{
-	
-	display: flex;
-	justify-content: space-around;
+.nav {
+  display: flex;
+  justify-content: space-around;
 }
-.logo{
-	position: fixed;
-	left: 90px;
-	top: 50px;
-	z-index: +1;
-	svg{
-		display: none;
-	}
+.logo {
+  position: fixed;
+  left: 90px;
+  top: 50px;
+  z-index: +1;
+  svg {
+    display: none;
+  }
 }
-.logo a{
-	font-family:poppins;
-	font-weight: bold;
-	color: #2f2e41;
-	font-size:2rem;
-	text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
-	letter-spacing: 1px;
+.logo a {
+  font-family: poppins;
+  font-weight: bold;
+  color: #2f2e41;
+  font-size: 2rem;
+  text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
 }
-.logo font{
-    color:#7A72FF;
+.logo font {
+  color: #7a72ff;
 }
-.side-box{
-	position: fixed;
-	right: 90px;
-	top: 50px;
-	width:217px;
-	height: 45px;
-	background-color: #FFFFFF;
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
-	box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
-	box-sizing: border-box;
-	z-index: 1;
-	border:1px solid rgba(167, 158, 245, 0.1);
-	justify-content: space-around;
+.side-box {
+  position: fixed;
+  right: 90px;
+  top: 50px;
+  width: 217px;
+  height: 45px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+  box-sizing: border-box;
+  z-index: 1;
+  border: 1px solid rgba(167, 158, 245, 0.1);
+  justify-content: space-around;
 }
-.search input{
-	width: 90px;
-	height: 20px;
-	border: none;
-	outline: none;
-	background-color: transparent;
-	color: #1F1F1F;
-	font-family: calibri;
-	font-size: 1rem;
-	padding: 0px 10px;
-	
+.search input {
+  width: 90px;
+  height: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1f1f1f;
+  font-family: calibri;
+  font-size: 1rem;
+  padding: 0px 10px;
 }
- 
-.search input::placeholder{
-	color: #1D1D1D;
-	font-weight:400;
-	letter-spacing: 2px;
-	font-size: 0.8rem;
-	font-family: 'Montserrat';
-	
+
+.search input::placeholder {
+  color: #1d1d1d;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Montserrat";
 }
-.search i{
-	margin: 0px auto;
+.search i {
+  margin: 0px auto;
 }
-.menu-container{
-	position: fixed;
-	display: flex;
-	right: 301px;
-	justify-content: space-around;
-	padding: 32px;
-	padding-left: 10px;
-	z-index: 1;
-	.about-btn{
-		margin-left: 15px; 
-	}
-     p:hover{
-		cursor: pointer;
-	}
+.menu-container {
+  position: fixed;
+  display: flex;
+  right: 301px;
+  justify-content: space-around;
+  padding: 32px;
+  padding-left: 10px;
+  z-index: 1;
+  .about-btn {
+    margin-left: 15px;
+  }
+  p:hover {
+    cursor: pointer;
+  }
 }
