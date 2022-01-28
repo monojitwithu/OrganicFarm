@@ -55,7 +55,7 @@ const Nav=({num2,scrollTo3,cartClickHandler})=>{
                 <div className="search">
                 
                   <GoSearch/>
-                  <input placeholder='search...' type='text'></input>
+                  <input placeholder='search...' type='text' />
                 </div>
 
         </div>
